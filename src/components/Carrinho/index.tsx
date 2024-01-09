@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Carrinho.module.scss'
 import Produto from '../Produto'
+import Botoes from '../Botoes'
 
 export default function Carrinho() {
   return (
@@ -8,7 +9,8 @@ export default function Carrinho() {
           <div className={styles.header}>
               <p className={styles.header__text}>Seu carrinho tem 5 itens</p>
           </div>
-          <Produto/>
+      <Produto />
+      <Botoes/>
     </div>
   )
 }
