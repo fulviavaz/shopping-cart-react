@@ -1,7 +1,11 @@
+.container{
+    display: block;
+    align-items: left;
+
 .produto{
     display: flex;
     padding:32px;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
 
     &__imagem{
@@ -78,4 +82,5 @@
     }
 }
 
+}
 }
