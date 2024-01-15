@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Botoes.module.scss'
 
+
 export default function Botoes() {
   return (
       <div className={styles.container}>
@@ -8,4 +9,6 @@ export default function Botoes() {
           <button className={styles.botao} id="limpar">Limpar</button>          
     </div>
   )
+
+  
 }

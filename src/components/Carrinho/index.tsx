@@ -7,10 +7,13 @@ export default function Carrinho() {
   return (
       <div className={styles.container}>
           <div className={styles.header}>
-              <p className={styles.header__text}>Seu carrinho tem 5 itens</p>
+              <p className={styles.header__text}>Seu carrinho tem 3 itens</p>
           </div>
       <Produto />
-      <Botoes/>
+      <Botoes />
+      <div className={styles.footer}>
+          <p className={styles.footer__text}>Total: R$ 300,00</p>
+      </div>
     </div>
   )
 }
