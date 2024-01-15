@@ -16,9 +16,9 @@ export default function Produto() {
             </p>
             <div className={styles.produto__info__preco}>
               <p className={styles.produto__info__preco__wrapp}>R$ {produto.preco}</p>
-              <div className={styles.produto__info__preco__botao}>-</div>
+              <button className={styles.produto__info__preco__botao}>-</button>
               <p className={styles.produto__info__preco__numero}>1</p>
-              <div className={styles.produto__info__preco__botao}>+</div>
+              <button className={styles.produto__info__preco__botao}>+</button>
             </div>
           </div>
         </div>
